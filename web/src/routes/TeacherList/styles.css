@@ -44,6 +44,8 @@
     bottom: 0;
 }
 
+
+
 @media (min-width: 700px){
     #page-teacher-list{
         max-width: 100%
@@ -59,5 +61,11 @@
 
     #search-teacher .input-block + .input-block {
         margin-top: 0;
+    }
+
+    #page-teacher-list main {
+        padding: 32px 0;
+        max-width: 740px;
+        margin: 0 auto;
     }
 }

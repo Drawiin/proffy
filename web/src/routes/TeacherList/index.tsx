@@ -2,7 +2,7 @@ import React from 'react'
 
 import './styles.css'
 import Header from '../../components/Header'
-
+import TeacherItem from '../../components/TeacherItem'
 
 export default function TeacherList(){
     return (
@@ -27,24 +27,9 @@ export default function TeacherList(){
            </Header>
 
            <main>
-               <article className="teacher-item">
-                   <header>
-                        <img 
-                            src="https://pbs.twimg.com/profile_images/1284301683380625409/9aNFXowQ_400x400.jpg"
-                            alt="avatar"
-                        />
-
-                        <div>
-                            <strong>Vinicius Santos</strong>
-                            <span>Biologia</span>
-                        </div>
-                   </header>
-                   <p>
-                       Entusiasta das mais modernas descobertas em microbiologia
-                   </p>
-                   <br/><br/>
-                   Apaixonado pelas maravilhas que a a natureza e a evolução nos proporcionam
-               </article>
+               <TeacherItem/>
+               <TeacherItem/>
+               <TeacherItem/>
            </main>
         </div>
     )
